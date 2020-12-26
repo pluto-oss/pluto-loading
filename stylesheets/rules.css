@@ -23,8 +23,11 @@
 	font-size: 14px;
 	font-style: italic;
 }
+
 .rule-container {
 	background-color: rgba(7, 7, 6, 0.9);
 	border-radius: 8px;
 	overflow-y: scroll;
+	width: 45%;
+	margin: 5px auto;
 }
