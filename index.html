@@ -1,5 +1,6 @@
 <html>
         <head>
+			<meta charset="UTF-8">			
 			<link rel="stylesheet" href="stylesheets/style.css">
 		</head>
 
@@ -22,6 +23,8 @@
 						}
 						button.innerText = page.title;
 					}
+
+					pageiframe.src = pages[0].href;
 				}
 
 				var req = new XMLHttpRequest();
@@ -31,6 +34,5 @@
 				req.open("GET", "./pages.json");
 				req.send();
 			</script>
-
         </body>
 </html>
